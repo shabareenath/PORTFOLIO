@@ -1,0 +1,22 @@
+/* src/index.css or src/App.css */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #33d7ff; /* Cyan color */
+  --secondary-color: #dfd1c2; /* Light beige color */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: outfit;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ background-color: black;
+}

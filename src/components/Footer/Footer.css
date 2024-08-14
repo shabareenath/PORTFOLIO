@@ -1,0 +1,59 @@
+.footer {
+    /* background:transparent; */
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(3,4,14,1) 6%, rgba(16,163,199,1) 49%, rgba(3,4,14,1) 94%);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+  .footer a{
+    color: white;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-media img:hover {
+    opacity: 0.7;
+  }
+/* Default state: Hide image */
+.footer .pic img {
+  display: none; /* Hide image by default */
+}
+
+/* Show image on screens less than 768px */
+@media screen and (max-width: 768px) {
+  .footer .pic img {
+    display: block; /* Show image */
+    height: 200px; /* Maintains the image height */
+    width: auto; /* Adjust width automatically to maintain aspect ratio */
+    max-width: 100%; /* Ensures image does not exceed container width */
+    border: 2px solid gold; 
+    border-radius: 20px; /* Rounds corners */
+    margin: 0 auto; /* Centers image horizontally if container is not full width */
+  }
+}

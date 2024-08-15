@@ -117,9 +117,9 @@ const About = () => {
                 </span>{" "}
                 <br />
                 I am a passionate individual with a zest for life. Hailing from
-                the serene backwaters of Alappuzha, Kerala, I've always been
+                the serene backwaters of Alappuzha, Kerala, I&apst;ve always been
                 drawn to adventure and challenges. Fitness, football, and
-                swimming are my go-to outlets for staying active. When I'm not
+                swimming are my go-to outlets for staying active. When I&apst;m not
                 burning calories, I find solace in the world of series and
                 movies. Traveling to new places and experimenting in the kitchen
                 are other passions of mine. I thrive on learning new things and
